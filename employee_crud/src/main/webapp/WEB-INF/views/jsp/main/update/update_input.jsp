@@ -4,28 +4,6 @@
 <%@ taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="fmt" %>
 <%@ include file="../include/header.jsp"%>
 
-<div class="content">
-		<aside>
-			<div class="title">社員名検索</div>
-			<div class="form">
-				<form action="../list/list.html">
-					<input type="text" name="empId" />
-					<input type="submit" value="検索" />
-				</form>
-			</div>
-			<div class="title">部署名検索</div>
-			<div class="form">
-				<form action="../list/list.html">
-					<select name="deptId">
-						<option value="1">営業部</option>
-						<option value="2">経理部</option>
-						<option value="3">総務部</option>
-					</select>
-					<input type="submit" value="検索" />
-				</form>
-			</div>
-		</aside>
-
 		<article>
 			<h3>社員変更入力画面</h3>
 			<div class="update">

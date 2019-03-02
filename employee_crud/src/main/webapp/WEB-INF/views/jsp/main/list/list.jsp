@@ -1,28 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <%@ include file="../include/header.jsp"%>
-	<div class="content">
-		<aside class="search">
-			<div class="title">社員名検索</div>
-			<div class="form">
-				<form action="list.html">
-					<input type="text" name="empName" />
-					<input type="submit" value="検索" />
-				</form>
-			</div>
-			<div class="title">部署名検索</div>
-			<div class="form">
-				<form action="list.html">
-					<select name="deptId">
-						<option value="1" selected="selected">営業部</option>
-						<option value="2">経理部</option>
-						<option value="3">総務部</option>
-					</select>
-					<input type="submit" value="検索" />
-				</form>
-			</div>
-		</aside>
-
+	
 		<article class="main">
 			<h3 class="page_title">社員一覧画面</h3>
 			<div class="regist_link">

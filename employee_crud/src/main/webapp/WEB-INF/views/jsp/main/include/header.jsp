@@ -14,3 +14,25 @@
 			<div class="title">社員管理システム</div>
 		</div>
 	</header>
+<div class="content">
+		<aside class="search">
+			<div class="title">社員名検索</div>
+			<div class="form">
+				<form action="list.html">
+					<input type="text" name="empName" />
+					<input type="submit" value="検索" />
+				</form>
+			</div>
+			<div class="title">部署名検索</div>
+			<div class="form">
+				<form action="list.html">
+					<select name="deptId">
+						<option value="1" selected="selected">営業部</option>
+						<option value="2">経理部</option>
+						<option value="3">総務部</option>
+					</select>
+					<input type="submit" value="検索" />
+				</form>
+			</div>
+		</aside>
+	
